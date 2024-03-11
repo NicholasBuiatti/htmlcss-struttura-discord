@@ -6,4 +6,77 @@
     padding: 0;
 }
 
+.flex-container {
+    display: flex;
+}
+
 /************* IMPOSTAZIONI SPECIFICHE *************/
+
+header {
+    background-color: lightblue;
+    min-height: 20rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.logo-bar {
+    background-color: green;
+    height: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.column {
+    border: 2px dashed black;
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+}
+
+.column-center {
+    width: 60%;
+    text-align: center;
+}
+
+.column-right {
+    text-align: end;
+}
+
+.blu {
+    height: 20rem;
+    background-color: purple;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.violet {
+    height: 80%;
+    width: 70%;
+    background-color: violet;
+    border: 2px dashed black;
+}
+
+/***************** MAIN *****************/
+
+.primaparte {
+    min-height: 25rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.colonna-sinistra {
+    min-height: 20rem;
+    width: calc(80% / 2);
+    background-color: blue;
+    border: 2px dashed black;
+}
+.colonna-destra {
+    min-height: 20rem;
+    width: calc(80% / 3);
+    background-color: pink;
+    border: 2px dashed black;
+}
