@@ -19,7 +19,7 @@ header {
     padding-top: 0.5rem;
 }
 
-.logo-bar {
+.nav-bar {
     background-color: green;
     height: 2rem;
     width: 80%;
@@ -27,40 +27,41 @@ header {
     justify-content: space-between;
 }
 
-.column {
-    border: 2px dashed black;
+.nav {
     width: 20%;
     height: 100%;
     padding: 5px;
+    border: 2px dashed black;
 }
 
-.column-center {
+.nav-center {
     width: 60%;
     text-align: center;
 }
 
-.column-right {
+.nav-right {
     text-align: end;
 }
 
-.blu {
-    height: 20rem;
+.primo-riquadro {
     background-color: purple;
+    min-height: 20rem;
     margin-top: 0.5rem;
     justify-content: center;
     align-items: center;
 }
 
-.violet {
-    height: 80%;
-    width: 70%;
+.quadrato-viola {
     background-color: violet;
+    min-height: 15rem;
+    width: 70%;
+    margin: 0.5rem 0;
     border: 2px dashed black;
 }
 
 /***************** MAIN *****************/
 
-.primaparte {
+.box {
     min-height: 25rem;
     width: 100%;
     justify-content: center;
@@ -68,15 +69,30 @@ header {
     padding: 1rem 0;
 }
 
-.colonna-sinistra {
+.colonna-left {
     min-height: 20rem;
-    width: calc(80% / 2);
+    width: 50%;
     background-color: blue;
     border: 2px dashed black;
 }
-.colonna-destra {
+.colonna-right {
     min-height: 20rem;
-    width: calc(80% / 3);
+    width: 30%;
     background-color: pink;
     border: 2px dashed black;
+}
+
+/***************** PARTE DUE/TRE *****************/
+
+.reverse {
+    flex-direction: row-reverse;
+    background-color: lightgrey;
+}
+
+.quadrato-verde {
+    min-height: 20rem;
+    width: 80%;
+    background-color: green;
+    border: 2px dashed black;
+    margin: 0.5rem 0;
 }
