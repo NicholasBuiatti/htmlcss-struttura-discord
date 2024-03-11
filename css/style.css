@@ -10,7 +10,7 @@
     display: flex;
 }
 
-/************* IMPOSTAZIONI SPECIFICHE *************/
+/************* HEADER *************/
 
 header {
     background-color: lightblue;
@@ -62,8 +62,6 @@ header {
 /***************** MAIN *****************/
 
 .box {
-    min-height: 25rem;
-    width: 100%;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
@@ -82,7 +80,7 @@ header {
     border: 2px dashed black;
 }
 
-/***************** PARTE DUE/TRE *****************/
+/***************** MAIN / BLOCCHI SUCCESSIVI AL PRIMO *****************/
 
 .reverse {
     flex-direction: row-reverse;
@@ -95,4 +93,51 @@ header {
     background-color: green;
     border: 2px dashed black;
     margin: 0.5rem 0;
+}
+
+/***************** FOOTER *****************/
+
+footer {
+    background-color: rgb(36, 36, 36);
+    height: 40rem;
+}
+
+.ultimo-riquadro {
+    min-height: 20rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    justify-content: center;
+}
+
+.colonna1 {
+    min-height: 20rem;
+    width: 18%;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.colonna2 {
+    min-height: 20rem;
+    width: 15.5%;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+.end-bar {
+    background-color: lightgreen;
+    width: 80%;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+button {
+    border: 2px dashed black;
+    height: 50%;
+    width: 10%;
 }
