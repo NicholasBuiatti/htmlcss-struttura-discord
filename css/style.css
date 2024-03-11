@@ -25,7 +25,6 @@ header {
 
 .nav-bar {
     background-color: green;
-    height: 2rem;
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
@@ -33,13 +32,12 @@ header {
 
 .nav {
     width: 20%;
-    height: 100%;
     padding: 5px;
     border: var(--bordo);
 }
 
 .nav-center {
-    width: 60%;
+    flex-grow: 2;
     text-align: center;
 }
 
