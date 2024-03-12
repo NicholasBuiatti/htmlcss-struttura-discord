@@ -66,18 +66,18 @@ header {
 .box {
     justify-content: center;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 10%;
 }
 
 .colonna-left {
     min-height: 20rem;
-    width: 50%;
+    width: 60%;
     background-color: blue;
     border: var(--bordo);
 }
 .colonna-right {
     min-height: 20rem;
-    width: 30%;
+    width: 40%;
     background-color: pink;
     border: var(--bordo);
 }
@@ -94,7 +94,7 @@ main > div:nth-child(even) {
 
 .quadrato-verde {
     min-height: 20rem;
-    width: 80%;
+    width: 100%;
     background-color: green;
     border: var(--bordo);
     margin: 0.5rem 0;
