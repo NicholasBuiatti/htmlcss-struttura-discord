@@ -84,9 +84,12 @@ header {
 
 /***************** MAIN / BLOCCHI SUCCESSIVI AL PRIMO *****************/
 
+main > div:nth-child(even) {
+    background-color: lightgrey;
+}
+
 .reverse {
     flex-direction: row-reverse;
-    background-color: lightgrey;
 }
 
 .quadrato-verde {
